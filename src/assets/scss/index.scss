@@ -1,0 +1,52 @@
+
+@import "./node_modules/bootstrap/scss/functions";
+@import "./node_modules/bootstrap/scss/variables";
+@import "./node_modules/bootstrap/scss/bootstrap";
+@import "./node_modules/bootstrap/scss/mixins.scss";
+
+
+//custom pages
+@import "./dashboard.scss";
+@import "./login.scss";
+@import "./signup.scss";
+
+
+:root{
+    --main-color: rgb(27, 36, 82);
+    --bg-color: rgba(255, 255, 255, 0);
+    --text-color: rgb(223, 218, 218);
+    --button-color: rgb(53, 31, 74);
+    --button-hover-color: rgb(141, 69, 208);
+    --heading-color: rgb(250, 250, 56);
+}
+
+body{
+    background-color: var(--bg-color);
+}
+.heading{
+    color: var(--heading-color);
+    font-size: 2rem;
+    font-weight: 500;
+}
+.sub-heading{
+    color: black;
+    font: 1.2rem "Helvetica Neue";
+    letter-spacing: 3px;
+    font: 300;
+}
+.form-input{
+    width: 440px !important;
+}
+.btn{
+    background-color: var(--button-color);
+    color: var(--text-color);
+    margin-top: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.text{
+    font-size: 1.2rem;
+    margin-top: 5px;
+}

@@ -1,0 +1,45 @@
+.weather-heading{
+    width: 440px;
+}
+.weather-container{
+    background-color: var(--main-color);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 20px;
+    border-radius: 1rem;
+    width: 400px;
+    height: 500px;
+}
+.card-text{
+    color: var(--text-color);
+    font-weight: 600;
+}
+.card-sub-text {
+    color: var(--text-color);
+    font-weight: 400;
+}
+.image{
+    object-fit: contain;
+    width: 200px;
+}
+
+
+/////table
+.user-table{
+  width: 100%;
+}
+
+.badge-soft-success{
+    background-color: rgb(74, 179, 74);
+    color: rgb(17, 72, 17);
+}
+.badge-soft-danger{
+    background-color: rgb(234, 83, 83);
+    color: rgb(72, 13, 13);
+}
+.table-data{
+    padding-left: 5px;
+    border-right: 1px solid black;
+}
+.last-data{
+    padding-left: 5px;
+}
